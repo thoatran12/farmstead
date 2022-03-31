@@ -1,0 +1,402 @@
+/**
+  * Responsive
+  */
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+@media (max-width: 1200px) {
+  /* Heading Handlers */
+  .primary-heading {
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+  #carousel .text-heading {
+    font-size: 17px;
+  }
+
+  /* Carousel Section */
+  #carousel .section-headings {
+    left: 8%;
+  }
+
+  #carousel .section-headings::before {
+    font-size: 90px;
+  }
+
+  /* Services Section */
+  #services .section-headings {
+    margin-bottom: 35px;
+  }
+
+  /* Features Section */
+  .features__img {
+    max-width: 370px;
+  }
+
+  .features-experience {
+    left: -5px;
+  }
+
+  .features-info__title {
+    font-size: 20px;
+  }
+
+  .features-item {
+    padding: 25px 0;
+  }
+
+  .features-item__title {
+    font-size: 18px;
+  }
+
+  /* Footer */
+  .footer-medias__submit {
+    width: 120px;
+  }
+
+  .footer-contact__title,
+  .footer-medias__title {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 992px) {
+  /* Scrollbar Handlers */
+  body::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Heading Handlers */
+  .subheading {
+    font-size: 20px;
+  }
+
+  .primary-heading {
+    font-size: 32px;
+    line-height: 42px;
+  }
+
+  .secondary-heading {
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+  /* Header */
+  #header {
+    padding: 15px 0;
+  }
+
+  /* Carousel Section */
+  #carousel .section-headings {
+    left: 5%;
+  }
+
+  #carousel .section-headings::before {
+    font-size: 80px;
+  }
+
+  /* Works Section */
+  #works .section-headings {
+    margin-bottom: 25px;
+  }
+
+  #works .btn-custom {
+    margin-bottom: 20px;
+  }
+
+  /* Features Section */
+  .features__img {
+    margin-top: 40px;
+    max-width: 570px;
+  }
+
+  .features-experience {
+    left: 34px;
+  }
+
+  .features-item {
+    padding: 23px 0;
+  }
+
+  .features-item__title {
+    font-size: 20px;
+  }
+
+  /* Footer */
+  .footer-contact {
+    padding-left: 0;
+  }
+
+  .footer-contact,
+  .footer-medias {
+    margin-bottom: 40px;
+  }
+
+  .footer-medias__text br {
+    display: inline;
+  }
+
+  .footer-medias__form {
+    justify-content: flex-start !important;
+  }
+
+  .footer-medias__input {
+    width: 275px;
+  }
+
+  .footer-medias__submit {
+    width: 105px;
+  }
+
+  .footer-contact__title,
+  .footer-medias__title {
+    margin-bottom: 12px;
+  }
+
+  .footer-info__logo-link {
+    margin-bottom: 15px;
+  }
+
+  #footer .row .col-lg-4:nth-child(2) {
+    order: 1;
+  }
+}
+
+@media (min-width: 992px) {
+  /* Works Section */
+  #works .section-headings {
+    padding-right: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Heading Handlers */
+  .subheading {
+    font-size: 18px;
+  }
+
+  .secondary-heading {
+    font-size: 32px;
+    line-height: 42px;
+  }
+
+  /* Header */
+  .header__logo-link {
+    color: #fff;
+  }
+
+  .theme-dark #header.header--sticky .header__logo-link {
+    color: #fb811e;
+  }
+
+  #header.header--sticky .header__logo-link {
+    color: #fb811e;
+  }
+
+  /* Carousel Section */
+  .slider {
+    width: 100vw;
+  }
+
+  .primary-heading > br {
+    display: inline;
+  }
+
+  #carousel .section-headings {
+    padding: 90px 40px 30px;
+    width: 90vw;
+    background-color: #fff;
+    border-radius: 8px;
+
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  #carousel .section-headings::before {
+    top: 15px;
+    left: 15px;
+  }
+
+  #carousel .text-heading {
+    margin-bottom: 20px;
+  }
+
+  .theme-dark #carousel .primary-heading {
+    color: var(--heading-dark-theme);
+  }
+
+  .theme-dark #carousel .section-headings::before {
+    color: #000;
+  }
+
+  .theme-dark #carousel .section-headings {
+    background-color: #222;
+  }
+
+  /* Works Section */
+  #works .btn-custom {
+    margin-bottom: 45px;
+  }
+
+  /* Services Section*/
+  #services {
+    padding: 70px 0 45px;
+  }
+
+  #services .section-headings {
+    margin-bottom: 47px;
+  }
+
+  #services .subheading {
+    margin-bottom: 5px;
+  }
+
+  /* Features Section */
+  .features-upper {
+    margin-bottom: 100px;
+  }
+
+  .features__img {
+    width: 100%;
+  }
+
+  .features-experience {
+    left: -55px;
+  }
+
+  /* Testimonials Section */
+  #testimonials {
+    height: 600px;
+  }
+
+  .testimonials-carousel-item > .row {
+    flex-direction: column;
+  }
+
+  .testimonials-customer__title {
+    margin-bottom: 35px;
+  }
+
+  .testimonials-description i {
+    top: -25px;
+    left: 47%;
+    transform: translateX(-50%);
+  }
+
+  .testimonials-description {
+    margin-top: 10px;
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .testimonials-carousel .slick-dots {
+    bottom: -85px;
+  }
+
+  /* Footer */
+  .footer-medias__text br {
+    display: none;
+  }
+
+  .footer-medias__form {
+    justify-content: space-between !important;
+  }
+
+  .footer-medias__input {
+    width: 100%;
+  }
+
+  .footer-medias__submit {
+    width: 200px;
+  }
+}
+
+@media (max-width: 576px) {
+  /* Heading Handlers */
+  .secondary-heading {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .primary-heading {
+    font-size: 28px;
+    line-height: 38px;
+  }
+
+  /* Carousel Section */
+  #carousel .section-headings::before {
+    font-size: 70px;
+  }
+
+  #carousel .section-headings {
+    padding: 80px 40px 30px;
+  }
+
+  #carousel .text-heading {
+    font-size: 16px;
+  }
+
+  /* Services Section */
+  #services .section-headings {
+    margin-bottom: 20px;
+  }
+
+  #services .secondary-heading {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  /* Features Section */
+  #features .section-headings {
+    margin-bottom: 25px;
+  }
+
+  #features .features-list {
+    gap: 25px;
+  }
+
+  .features-experience {
+    left: -45px;
+  }
+
+  /* Testimonials Section */
+  .testimonials-carousel .slick-dots {
+    bottom: -50px;
+  }
+}
+
+@media (max-width: 450px) {
+  /* Heading handlers */
+  .primary-heading {
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  /* Carousel Section */
+  #carousel .section-headings::before {
+    font-size: 60px;
+  }
+
+  #carousel .section-headings {
+    padding: 70px 40px 30px;
+  }
+
+  /* Products Section */
+  #products {
+    padding: 20px 0 80px 0;
+  }
+
+  #products .heading-col {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  #products .btn-custom {
+    margin-bottom: 15px;
+  }
+}
